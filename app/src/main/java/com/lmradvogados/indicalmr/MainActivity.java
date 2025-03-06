@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         webview.setWebChromeClient(new WebChromeClient());
-        navigationManager.carregarUrl("https://indica.lmradvogados.com.br/");
+        navigationManager.carregarUrl("https://lmradvogados.lmradvogados.com.br/");
 
         rootView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
